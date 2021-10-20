@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
-import java.util.List;
 
-public class Main {
+public class Lab3Q2 {
   public static void main(String[] args) {
 
     Random rand = new Random(); // instance of random class
@@ -24,12 +22,5 @@ public class Main {
 
     System.out.println(myNumbers);
 
-    Scanner sc = new Scanner(System.in); // System.in is a standard input stream
-    System.out.print("What number are you looking for?");
-    int userNumber = sc.nextInt();
-
-    System.out.println("Is your Number in the list? " + myNumbers.contains(userNumber));
-
-    sc.close();
   }
 }
