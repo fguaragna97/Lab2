@@ -20,7 +20,11 @@ public class Lab3Q2 {
     myNumbers.add(rand.nextInt(upperbound));
     myNumbers.add(rand.nextInt(upperbound));
 
-    System.out.println(myNumbers);
+    ArrayList<Object> myObject = new ArrayList<Object>(myNumbers);
 
+    myNumbers.set(9, -5);
+
+    System.out.println(myNumbers);
+    System.out.println(myObject);
   }
 }
